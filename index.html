@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDetective | GitHub User Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <i class="fab fa-github logo-icon"></i>
+            <h1>DevDetective</h1>
+        </header>
+        
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Enter GitHub Username...">
+            <button id="btn">Search</button>
+        </div>
+
+        <div id="profile-card" class="card hidden">
+            <div class="card-header">
+                <img id="avatar" src="" alt="Profile Pic">
+                <div class="user-info">
+                    <h2 id="name">Name</h2>
+                    <a id="login" href="#" target="_blank">@username</a>
+                    <p id="bio">This user has no bio.</p>
+                </div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>Repos</h3>
+                    <p id="repos">0</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Followers</h3>
+                    <p id="followers">0</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Following</h3>
+                    <p id="following">0</p>
+                </div>
+            </div>
+        </div>
+
+        <p id="error" class="hidden">User not found!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
