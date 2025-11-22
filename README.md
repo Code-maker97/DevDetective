@@ -3,7 +3,7 @@
 A real-time web application that utilizes the GitHub REST API to search and display user profiles. This project demonstrates asynchronous JavaScript programming and API integration.
 
 ## 🔗 Live Demo
-**Try the app here:** [https://code-maker97.github.io/github-finder/](https://code-maker97.github.io/github-finder/)
+**Try the app here:** [https://code-maker97.github.io/DevDetective/](https://code-maker97.github.io/DevDetective/)
 
 ## 🚀 Features
 * **Search Functionality:** Instantly find any valid GitHub user by username.
